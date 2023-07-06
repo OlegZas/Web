@@ -1,0 +1,116 @@
+/* CSS Document */
+
+body {background-image: url(6.jpg);
+    
+    }
+
+header h1 {
+    font-family: "Bookman Old Style",sans-serif;
+    margin: 0;
+    border: 20px hidden;
+    padding: 5% 10% 5% 10%; 
+    font-size: 4em; 
+    color: rgb(90, 16, 227);
+    overflow-x: hidden;
+    text-align-last: center;
+    text-shadow: 3px 5px lightpink;
+}
+.nav{height:100%;
+    width:0%;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(68, 64, 69);
+    opacity: .9;
+    overflow-x: hidden;
+    padding-top: 200px;
+    transition: .8s;
+    
+}
+.nav a {
+    display:block;
+    padding:20px 30px;
+    font-size: 25px;
+    text-decoration: underline;
+    color: rgb(246, 242, 247);
+    
+    
+}
+.nav a:hover{
+    color:plum;
+    transition: 0.4s; 
+    
+}
+.nav .close {
+    position: absolute;
+    top:0;
+    right:-10px;
+    font-size: 40px;
+}
+#content {
+    padding: 20px;
+    transition: margin-left .7s;
+}
+.slide a {
+    color: black;
+    font-size: 40px;
+    opacity: .5;
+    position: fixed;
+}
+span {color:rgb(88, 14, 194)}
+span1 {color:rgb(99, 28, 199)}
+span2 {color:rgb(124, 73, 196)}
+main h1 {
+    color:midnightblue;
+    line-height: 30px;
+    font-family: "Garamond", sans-serif;
+    margin: 20px;
+    text-align-last: center;
+}
+main h2 {
+    color:midnightblue;
+    line-height: 30px;
+    font-family: "Garamond", sans-serif;
+    text-align-last: center;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+span4 {
+    font-size: 40px;
+}
+p {
+    text-indent: 50px;
+    color:rgb(8, 8, 8);
+}
+#text {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Garamond", sans-serif;
+    margin: 50px;
+}
+img {
+    height: 400px;
+    width:340px;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: solid rgb(84, 59, 92);
+    border-width: 5px;
+}
+footer {
+    margin: 40px;
+    text-align-last: center;
+    color:midnightblue;
+    font-family: "Garamond", sans-serif;
+    font-size: 30px;
+}
+#end {
+    margin: 60px;
+    text-align-last: center;
+    color:darkred;
+    font-family: "Garamond", sans-serif;
+    font-size: 50px;
+}
+
