@@ -1,0 +1,121 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#title {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5% 10% 5% 10%; 
+    font-size: 3em; 
+    color: #192134;
+    overflow-x: hidden;
+    text-align-last: center;
+    background: url(mou.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+    
+}
+
+.container{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-evenly; 
+    background: url(poland-snowboarding-fun-800x600.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}/*
+#radio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    
+}
+#male, #female, #other {
+    display: flex;
+    justify-content: flex-start;
+}*/
+
+--- 
+
+form {
+    width: 50%;
+    margin: 5% 3% 5% %;}
+
+fieldset {
+    background-color: aliceblue;
+    padding: 5%;}
+
+legend {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;}
+
+#discription {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;}
+
+#survey-form {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 10% 5% 5% 5%;
+    list-style-position: outside;
+    color: #3b3832;
+    border: dotted black;
+    border-radius: 5%;}
+
+input {
+    height: 30px;
+    width: 250px;
+    float: right;}
+
+select {
+    float: right;
+    height:30px;}
+
+#info {
+    margin: 6% 3% 3% 3%;}
+
+textarea {
+    margin-top: 5%;}
+
+#submit {
+    float:right;
+    width: 30%;
+    height: 40px;
+    border-radius: 20%;
+    margin-right: 10%;
+    background-color: #3b3832;
+    color: white;
+    font-size: 20px;}
+
+#reset {
+    float: left;
+    width: 30%;
+    height: 40px;
+    border-radius: 20%;
+    margin-left: 10%;
+    background-color: #3b3832;
+    color: white;
+    font-size:20px;}
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;}
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form ZO
+        </title>
+         <link href="formstyle.css" rel="stylesheet" type="text/css" >
+    </head>
+    <body>
+      <main>
+       <header>
+            <h1 id="title"> Make Reservations Today! </h1>  <!-- id required -->
+        </header>
+        <div class="container">
+        <form action="form_handler.php" method = "post" id="survey-form"> <!-- id required -->
+        <fieldset>
+            <legend>One Last Step!</legend>
+            <p id="discription">Sign up for this wonderful adventure!</p> <!-- id required -->
+            <ul>
+                <li class="info"><label for="age">Your Age:
+                    <select id="dropdown" name="age">
+                        <option>13 - 18 yrs.</option> 
+                        <option>18 - 25 yrs.</option> 
+                        <option>26 - 35 yrs.</option> 
+                        <option>36 - 45 yrs.</option> 
+                        <option>46 - 55 yrs.</option> 
+                        <option>56 + yrs.</option> 
+                    </select>
+                    </label></li> 
+                <li id = "name" class="info"><label id="name-label" required>Full Name:
+                    <input type="text" placeholder="Ex: Mario Herno" required></label></li><!-- id required -->
+                  <li id = "radio" class="info">  <input type="radio" id="male" name="gender">
+                        <label>Male</label><br>
+                    <input type="radio" id="female" name="gender">
+                        <label>Female</label><br>
+                    <input type="radio" id="other" name="gender">
+                      <label>Other</label> </li>
+                <li id = "email" class="info"><label id="email-label">Email:
+                    <input type="email" placeholder="Ex: marioherno@gmail.com" required></label></li><!-- id required -->
+                <li classinfo="info"><label>Street Adress:
+                    <input type="text"placeholder="Ex: 379 Bever blvd. apt. 2" required></label></li>
+                <li classinfo="info"><label>Country:
+                    <input type="text" placeholder="Ex: United States" required></label></li>
+                <li classinfo="info"><label>City:
+                    <input type="text" placeholder="Ex: Los Angeles" required></label></li> 
+                <li classinfo="info"><label>Date:
+                    <input type="date" required></label></li>          
+                <li classinfo="info"><label>Zip Code:
+                    <input type="number" placeholder="Ex: 77842" pattern="[0-9]{5}" min="00000" max="99999" required ></label></li>
+                <li id="number" classinfo="info"><label id="number-label">Phone:
+                    <input type="tel" placeholder="Ex: 9398554237" pattern="[0-9]{10}" min="000000000" max ="9999999999"   required></label></li><!-- removed the possibility of validation error - non-number entry - by setting type to "number" --><!-- id required --> <!--having issues: if i set to tell i can enter text; if i set to number i cannot set the pattern so the user can enter less than 10 digits-->
+                   
+                   <li classinfo="info"><label>Guest Count:
+                    <input type="number" placeholder="1 to 20" min="1" max="20" required></label></li> 
+                    <li classinfo="info"><label > I have the gear 
+                          <input type="checkbox" id="gear" name="gear" value="Gear"></label></li>  
+                <li classinfo="info"><label> I have experience
+                        <input type="checkbox" id="experience" name="experience" value="Experience"></label></li> 
+ 
+                <li classinfo="info"><label for="comment">Special Requests:
+                    <textarea rows="5" cols="50" placeholder="300 words or less" maxlength="300" id="comment"></textarea></label></li>
+            </ul>
+            <input id="reset" type="reset" value="Reset">
+            <input id="submit" type="submit" value="Submit"> 
+        </fieldset>
+        </form>
+        </div>
+        </main>
+        <footer>
+            <p>Author: Oleg Z</p>
+        </footer>
+    </body>
+</html>
