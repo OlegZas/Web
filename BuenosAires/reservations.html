@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <nav>
+        <div id="menu" class="nav">
+            <ul>
+                 <li><a target="_blank" href="buenosaires.html#ba">Home</a></li>
+                 <li><a target="_blank" href="buenosaires.html#events">Annual Events</a></li>
+                 <li><a target="_blank" href="buenosaires.html#attr">City Attractions</a></li>
+                 <li><a target="_blank" href="buenosaires.html#inf">City Information</a></li>
+                 <li><a href="reservations.html">Reservations</a></li>
+            </ul>
+         </div> 
+    </nav>
+         <link rel="shortcut icon" href="argentina.ico">
+         <title >Buenos Aires</title>
+         <link href="bastyle2.css" rel="stylesheet" type="text/css" >
+         <script src="javaattempt.java"></script>
+</head>
+<body>
+    <header>
+        <h1> Buenos Aires </h1>  
+    </header>
+    <main>  
+    <table>
+       <tr>
+        <td><img src="city2.jpg"></td></tr>
+        <tr><td><img src="boca.jpg"></td></tr>
+        <tr><td><img src="t3.jpg"></td></tr>
+    </table>
+    <form action="/examplereservation.php" method="post">
+        <fieldset>
+            <legend>Make Reservations Today!</legend>
+            <p>Sign up for our guided tour and explore the New World!</p>
+            <ul id="form">
+                <li id="elem"><label for="age">Your Age:
+                    <select name="age">
+                        <option>13 - 18 yrs.</option> 
+                        <option>18 - 25 yrs.</option> 
+                        <option>26 - 35 yrs.</option> 
+                        <option>36 - 45 yrs.</option> 
+                        <option>46 - 55 yrs.</option> 
+                        <option>56 + yrs.</option> 
+                    </select>
+                    </label></li> 
+                <li id="elem"><label for="firstlast">Full Name:
+                    <input type="text" placeholder="Ex: Jorge Garcia" name="fullname" id="firstlast"></label></li>
+                <li id="elem"><label for="email">Email:
+                    <input type="email" placeholder="Ex: jorgegarcia@gmail.com" name="email" id="email"></label></li>
+                <li id="elem"><label for="street">Street Adress:
+                    <input type="text"placeholder="Ex: 3457 Pomona blvd. apt. 48" name="street" id="street"></label></li>
+                <li id="elem"><label for="country">Country:
+                    <input type="text" placeholder="Ex: United States" name="country" id="country"></label></li>
+                <li id="elem"><label for="city">City:
+                    <input type="text" placeholder="Ex: Los Angeles" name="city" id="city"></label></li> 
+                <li id="elem"><label for="date">Date:
+                    <input type="date" name="date" id="date"></label></li>          
+                <li id="elem"><label for="zip">Zip Code:
+                    <input type="text" placeholder="Ex: 45678" name="zip" id="zip"></label></li>
+                <li id="elem"><label for="phone">Phone:
+                    <input type="text" placeholder="Ex: 62778954432" name="phone" id="phone"></label></li>
+                <li id="elem"><label for="number">Guest Count:
+                    <input type="number" placeholder="1 to 20" min="1" max="20"name="number" id="number"></label></li>  
+                <li id="elem"><label for="comment">Special Requests:
+                    <textarea name="comment" rows="5" cols="50" placeholder="300 words or less" maxlength="300" id="comment"></textarea></label></li>
+            </ul>
+            <input id="reset" type="reset" value="Reset">
+            <input id="submit" type="submit" value="Submit"> 
+        </fieldset>
+        </form>
+      
+    
+    </main>
+     
+    
+    
