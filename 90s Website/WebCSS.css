@@ -1,0 +1,97 @@
+
+#menu ul {  
+    overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      transition: 1s;
+      background-image: url("combologo.png");
+      background-color: #ff3737;
+      background-size: 50.6%;
+      background-repeat: no-repeat;
+        
+}
+#menu ul li {
+        display: inline-block;
+        padding-right: 5%;
+        padding-left: 1%;
+        padding-bottom: 5.5%; 
+        margin-top: 2.5%;
+        padding-top: 3%;
+    }
+#menu ul li a {
+            color: rgb(255, 255, 255);
+            font-size: 20px;}
+#console {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 5%;
+}
+.imgRows {
+    display: flex;
+    padding: 4%;
+  }
+.imgRows img {
+    margin-top: 1%;
+    width: 60%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+ #main{
+    background-image: url("arcade.png");
+    opacity: 90%;
+ }
+
+ #ghead {
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+.gpar {
+    font-family: "Bahnschrift",sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    overflow: auto;}
+
+.gpar img {
+    float: right;
+    border-radius: 8px; 
+    border-color: black;
+    border-style: solid;
+    width: 35%;
+    margin-left: 5%;}
+#parimg {
+    width: 90%; 
+    display: inline-flex;
+    align-items: center;
+}
+#parimg p {
+    width: 30%;
+    flex:1;
+    font-size: larger;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 1.5em;
+    text-indent: 3%;
+    font-family: Bahnschrift;
+}
+#parimg img {
+    width: 30%; 
+    flex:1;
+    
+}
+
